@@ -76,7 +76,7 @@ class Bussiness:
                 # the size of the number to acceptable levels but also keep the information
                 # since the operations are only + and * and we need to keep it only for the monkeys (divisors for each)
                 # we can do modulo for the number by the product of divisors to keep it
-                # (horrible attempt to explain modular arithmetics)
+                # (horrible attempt to explain modular arithmetics - congruence)
                 self.worry_function = lambda x: x % prod(
                     [monkey.test for monkey in self.monkeys]
                 )
