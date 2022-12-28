@@ -8,6 +8,7 @@ authors = ["Petr Kobrle <pkobrle@paysure.solutions>"]
 python = "^3.9"
 numpy = "^1.23.5"
 matplotlib = "^3.6.2"
+imageio = "^2.23.0"
 
 [tool.poetry.dev-dependencies]
 

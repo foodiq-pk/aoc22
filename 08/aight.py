@@ -24,7 +24,7 @@ def is_tree_visible(index1, index2, matrix):
         right = max(matrix[index1, index2 + 1 :]) < tree
         # print(matrix[index1, index2+1:])
         # visible bottom
-        bottom = max(matrix[index1 + 1 :, index2]) < tree
+        bottom = max(matrix[index1 + 1:, index2]) < tree
         # print(matrix[index1+1:, index2])
         # print()
         return int(any([top, left, right, bottom]))

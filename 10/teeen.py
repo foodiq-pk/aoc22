@@ -12,11 +12,11 @@ class CRT:
         ):
             self.image.append("#")
         else:
-            self.image.append(".")
+            self.image.append(" ")
 
     def display(self):
         for line in [
-            self.image[i : i + self.screen_length]
+            self.image[i: i + self.screen_length]
             for i in range(0, len(self.image), self.screen_length)
         ]:
             print(" ".join(line))
